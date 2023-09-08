@@ -52,9 +52,6 @@ import en_core_web_trf
 #nlp = en_core_web_trf.load()
 nlp = spacy.load('en_core_web_trf')
 
-import gensim
-#from gensim.summarization import summarize
-from gensim.parsing.preprocessing import preprocess_documents
 
 # Scipy
 import scipy
